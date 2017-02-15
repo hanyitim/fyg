@@ -32,7 +32,7 @@ fis.match("page/**/*.{html,js}",{
 });
 
 fis.match("::package",{
-	spriter: fis.plugin('csssprites')
+	spriter: fis.plugin('csssprites'),
 });
 
 if(process.argv.join("").indexOf("--dest")>-1){
@@ -65,6 +65,7 @@ if(process.argv.join("").indexOf("--dest")>-1){
 //指定哪些不被构建
 fis.set('project.ignore', [
   'output/**',
+  'output_wap/**',
   'node_modules/**',
   '.git/**',
   '.svn/**'

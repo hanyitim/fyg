@@ -12,9 +12,6 @@
   "author": "hanyi",
   "license": "ISC",
   "dependencies": {
-    "fis3": "^3.0.6",
-    "liftoff": "^2.1.0",
-    "minimist": "^1.1.1",
     "cheerio": "~0.22.0",
     "fis-parser-node-sass": "0.2.1",
     "fis3": "^3.4.25",
@@ -22,6 +19,7 @@
     "fis3-hook-commonjs": "~0.1.25",
     "fis3-parser-init-page": "0.0.x",
     "fis3-postpackager-loader": "^2.1.4",
+    "fis3-prepackager-htmldependence": "0.0.1",
     "liftoff": "^2.3.0",
     "minimist": "^1.2.0"
   },
